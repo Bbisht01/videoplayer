@@ -1,0 +1,74 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #282626;
+  height: 100vh;
+}
+
+.video-container {
+  width: 65%;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+}
+
+.controls {
+  position: absolute;
+  /* bottom: 5px; */
+  margin-top: -2px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.controls button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}
+
+.controls input[type="range"] {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.playlist {
+  width: 32%;
+  background-color:#282626;
+  color: white;
+}
+
+.playlist h2 {
+  margin-bottom: 10px;
+}
+
+.playlist ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlist li {
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.playlist li:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
